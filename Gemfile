@@ -11,7 +11,7 @@ group :development do
 end
 
 group :test do
-  gem 'rack-test', require 'rack/test'
+  gem 'rack-test', require: 'rack/test'
   gem 'rspec'
 end
 
